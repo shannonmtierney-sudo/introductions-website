@@ -4,13 +4,15 @@ body {
     margin: 40px;
 }
 
-.image-container {
-    text-align: center;
-}
-
-img {
+.image-container img {
     max-width: 800px;
     height: auto;
+}
+
+.thumbnail img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
 }
 
 ul {
